@@ -72,6 +72,43 @@ This document intends to describe and provide what is needed for searching and u
 
 <br><br/>
 
+## Before you start your upload
+
+Please follow the **naming conventions**, **data types**, and **format guidelines** defined in the project’s **Data Management Plan (DMP)** whenever possible.  
+The summary below provides key extracts from the DMP (_Chapter: Datasets_).  
+For updates or clarification, always refer to the most recent version of the DMP.  
+
+---
+
+### Naming Conventions
+
+Whenever possible, name your data files according to the following format:
+
+
+`_WPnumber_TaskNumber_PartnerAcronym_Easy-to-understand-content_date_`
+
+**Example:**
+
+`_WP5_T5.3_NIVA_Bioassay-CampaignXX-sediment_14.03.2024_`
+
+This structure helps ensure clarity, traceability, and alignment across project partners.
+
+
+
+### Main Deliverable Types
+
+| **Type of Data** | **Characteristics** | **Possible Formats** |
+|------------------|--------------------|----------------------|
+| **Chemical and physicochemical data** | Concentrations of CECs and legacy contaminants in different matrices; physicochemical properties such as temperature, salinity, oxygen, suspended particle matter (SPM), and dissolved organic matter (DOM). | **Recommended:** `.csv`, `.tab`<br>**Accepted:** `.xls`, `.xlsx` |
+| **Biological data** | Information regarding living organisms, encompassing genomics (and other omics data), physiological parameters, and related aspects (e.g., field, lab, mesocosm). | **Recommended:** `.csv`, `.tab`<br>**Accepted:** `.xls`, `.xlsx` |
+| **Computational data** | Data produced by computer simulations, modelling, algorithms, or software applications (e.g., model outputs). | **Recommended:** NetCDF<br>**Also:** [Upload the corresponding GitHub repository to Zenodo](https://help.zenodo.org/docs/github/enable-repository/) |
+| **Reports / Policy briefs / Workshops** | Scientific reports, workshop abstracts, policy briefs, internal documents, and similar outputs. | **Recommended:** Open Document Format (`.odf`)<br>**Accepted:** `.pdf`, `.html`, `.docx`, `.xlsx`, `.rtf` |
+
+---
+
+_This extract summarises relevant sections from the CONTRAST DMP (v1.2, October 2025). In case of discrepancies, the DMP takes precedence._
+
+
 ## Uploading files
 
 
