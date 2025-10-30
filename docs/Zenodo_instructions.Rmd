@@ -1,5 +1,5 @@
 ---
-title: "Zenodo how-to instructions"
+title: '<img src="images/CONTRAST_LOGO.svg" style="height:50px;width:190px;"> <br>How-to instructions for Zenodo</br> '
 output:
   html_document:
     includes:
@@ -20,6 +20,7 @@ output:
     toc: yes
     highlight: pygments
 ---
+
 
 
 

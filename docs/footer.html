@@ -1,8 +1,62 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
 
+<div class="footer">
+  
+  <!-- Zenodo DOI -->
+  <a href="https://doi.org/10.5281/zenodo.17466655" title="Zenodo DOI" class="zenodo-link">
+    <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.17466655.svg" alt="DOI">
+  </a>
+  
+  <!-- GitHub -->
+  <a href="https://github.com/NIVANorge/contrast" title="GitHub">
+    <i class="fab fa-github"></i>
+  </a>
 
-<div class='footer'>
-  <a href="https://github.com/NIVANorge/Papillons"><i class="fab fa-github" style='font-size:30px'></i></a>
-<a href="https://www.papillons-h2020.eu/"><i class="fa fa-home" style='font-size:30px'></i></a>
+  <!-- Home -->
+  <a href="https://www.contrastproject.eu/" title="Project Home">
+    <i class="fa fa-home"></i>
+  </a>
+
 
 </div>
+
+<style>
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f9fa;
+    text-align: left;
+    padding: 10px 0;
+    border-top: 1px solid #ddd;
+    z-index: 9999;
+  }
+
+  .footer a {
+    color: #555;
+    margin: 0 15px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
+  .footer a:hover {
+    color: #007bff;
+  }
+
+  .footer i {
+    font-size: 30px;
+    vertical-align: middle;
+  }
+
+  .zenodo-link img {
+    height: 25px;
+    vertical-align: middle;
+    border: none;
+  }
+
+  /* Prevent footer from overlapping content */
+  body {
+    margin-bottom: 60px;
+  }
+</style>
